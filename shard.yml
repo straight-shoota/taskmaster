@@ -1,0 +1,9 @@
+name: taskmaster
+version: 0.1.0
+
+authors:
+  - Johannes Müller <straightshoota@gmail.com>
+
+crystal: 0.27.0
+
+license: MIT
