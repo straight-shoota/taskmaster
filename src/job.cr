@@ -1,9 +1,9 @@
 require "json"
 
 module Taskmaster::Job
-  include JSON::Serializable
-
   macro included
+    include JSON::Serializable
+
     class_property? queue_adapter : ::Taskmaster::Adapter? = nil
   end
 
